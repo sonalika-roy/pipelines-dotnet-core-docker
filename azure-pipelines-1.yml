@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'f408c4f0-d801-4cc2-9b57-91272e1f0aa8'
+  dockerRegistryServiceConnection: '3710b1e9-1943-4e28-9595-18f497d71eda'
   imageRepository: 'sonalikaroypipelinesdotnetcoredocker'
   containerRegistry: 'sracrdemo4.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
